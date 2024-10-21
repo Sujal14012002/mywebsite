@@ -3,31 +3,38 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.navbar{
-    height:80px;
-    width: 1400px;
-    /* border:1px solid black; */
+.container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    border:none;
+
 }
-.nav-bar{
-    height:40px;
-    width:450px;
-    /* border:1px solid black; */
-    border-radius: 15px;
+
+.nav-bar {
+    border-radius: 25px;
+    width: fit-content;
+    background-color:yellow;
+    padding: 13px;
+    font-size: 20px;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color:  rgb(235, 235, 141);
-   
-    }
+    gap: 25px;
+    margin-top: 10px;
 
+}
 
-.btn{
-    background-color: red;
-    padding:7px;
+.highlighted-nav {
     border-radius: 15px;
-    color: white;
+    padding: 4px 8px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.highlighted-nav:hover {
+    background-color: blue;
+    transform: translateY(-10%);
+}
+.highlighted-nav:focus {
+    background-color: yellow;
+    transform: translateY(0%);
 }
