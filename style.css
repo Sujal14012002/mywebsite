@@ -335,42 +335,79 @@
     align-items: center;
     
   }
-
-  .project-images{
-    display: flex;
-    flex-direction: column;
-    gap:50px;
-  }
-  .images1{
-    height:300px;
-    border:1px solid black;
+  .boxer{
     display: flex;
     justify-content: center;
-    gap:20px;
     align-items: center;
-
-
   }
-  .images2{
+
+  .project-images1{
     height:300px;
-    border:1px solid black;
+    width:1200px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap:2em;
+    align-items: center;
   }
-  .images3{
-    height:300px;
-    border:1px solid black;
-  }
-  .imagesdiv1{
-    height:250px;
-    border:10px solid#F7F8FF;
-    width:500px;
-    border-radius: 10px;
 
+  .img1,.img2{
+    height:300px;
+    width:550px;
+    border:30px solid rgb(247,248,255);
+    border-radius: 24px;
   }
-  .imagesdiv2{
-    height:250px;
-    border:10px solid#F7F8FF;
-    width:500px;
-    border-radius: 10px;
+  .next{
+    display: flex;
+    justify-content: center;
+  }
+  .nextline1{
+    margin-top: 10px;
+    height:40px;
+    width:1200px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap:1.8em;
     
+>div1,div{
+    height:35px;
+    width:550px;
+    /* border:2px solid black; */
+    
+}
+  }
+  .payable{
+    font-size:20px;
+    font-weight: bolder;
+  }
 
+
+  .foot{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .footer{
+    height:200px;
+    width:1150px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .footer1{
+    height:190px;
+    width:350px;
+    /* border:1px solid black; */
+    >div{
+        font-size: 20px;
+        color:rgb(91,91,91);
+        margin-top: 10px;
+
+    }
+  }
+  .heading{
+    font-size:170px;
   }
