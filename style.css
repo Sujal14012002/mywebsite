@@ -57,6 +57,7 @@
     align-items: center;
     width:65px;
     border-radius: 24px;
+    justify-content: center;
 }
 
 .highlighted:focus{
@@ -354,7 +355,7 @@
   .img1,.img2{
     height:300px;
     width:550px;
-    border:30px solid rgb(247,248,255);
+    border:30px solid rgb(227,227,245);
     border-radius: 24px;
   }
   .next{
@@ -513,3 +514,10 @@
     transform: rotateY(0deg);
 }
 
+.img1:hover{
+    opacity: 0.8;
+
+}
+.img2:hover{
+    opacity: 0.8;
+}
