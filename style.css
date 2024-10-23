@@ -195,7 +195,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap:1.5em;
+    gap:2em;
     align-items: center;
 }
 .title-text{
@@ -221,7 +221,7 @@
 
 
 .testimonials{
-    height:40px;
+    height:35px;
     width:254px;
 }
 .logo{
@@ -411,3 +411,105 @@
   .heading{
     font-size:170px;
   }
+
+
+  .flip-text {
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    width: 300px;
+    margin-top: 52px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(77, 77, 77);
+}
+
+.skills span {
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+    perspective: 300px;
+    animation: flipAnimation 9s linear infinite;
+}
+
+@keyframes flipAnimation {
+    0% {
+        /* keep hidden initially */
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    5% {
+        /* make visible */
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    30% {
+        /* keep visible */
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    35% {
+        /* invisible */
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+}
+
+.skills span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.skills span:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.skills span:nth-child(3) {
+    animation-delay: 6s;
+}
+
+.profile-img-container,
+.profile-img-back {
+    background-color: rgb(102, 112, 255);
+    height: 265px;
+    overflow: hidden;
+    border-radius: 30px;
+    transition: transform 0.5s ease-in-out;
+    width: 250px;
+}
+
+.profile-img-container {
+    backface-visibility: hidden;
+}
+
+.profile-img-back {
+    text-align: center;
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 196px;
+    z-index: -1;
+}
+
+/* .profile-img-back:hover {
+} */
+
+.profile-container:hover .profile-img-container {
+    transform: rotateY(180deg);
+}
+
+.profile-container:hover .profile-img-back {
+    transform: rotateY(0deg);
+}
+
