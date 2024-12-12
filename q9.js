@@ -1,7 +1,7 @@
-// *Constant Object:**
-//    Create a constant object `user` with properties `name` and `age`. Assign appropriate values to the properties and print the object.
-const user={
-    name:"Sujal prajapati",
-    age:22
-}
-console.log(user.name,user.age);
+// const language = "JavaScript";
+//    const statement = `I am learning ______!`;
+//    console.log(______);
+
+const language="javascript";
+const statement=`i am learning ${language}!`;
+console.log(statement);

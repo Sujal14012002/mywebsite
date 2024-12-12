@@ -1,5 +1,9 @@
-// **Combine Variables:**
-//    Declare variables for `length` and `width` using `let`. Assign values to them and calculate the area of a rectangle using these variables. Print: "The area of the rectangle is [area]."
-let length=12,width=10;
+// **String Concatenation:**
+//    Write code to concatenate the following strings:
+//    - `firstName` = `"Yash"`
+//    - `lastName` = `"Priyam"`
+//    Print: `"My full name is Yash Priyam."`
 
-console.log(`the area of reactangle is ${length*width}`);
+let firstName="Sujal";
+let lastName="prajapati";
+console.log("My fullname is ",firstName.concat(lastName));

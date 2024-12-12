@@ -1,4 +1,9 @@
-// **Multiple Assignments:**
-//    Declare variables for your favorite sport, player, and team in a single line using `let`. Assign values to these variables and print them.
-let favorite_sport="cricket",player="virat kholi";
-console.log(`my favourit sport is ${favorite_sport} and player is ${player}`);
+// Fix the issue in the following code:
+// ```javascript
+// const quote = "I love JavaScript;
+// console.log(quote);
+
+// string "" both side to close the sentence in string double quoted 
+
+const quote="I love javascript";
+console.log(quote);//corect 

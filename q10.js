@@ -1,4 +1,11 @@
-// **Describe Yourself:**
-//     Create variables for your name, profession, and city using `let`. Assign values to them and print a complete sentence: "Hi, I am [name], a [profession] from [city]."
-let myname="Sujal prajapati",profession="software developer",city="bhopal";
-console.log(`Hi, I am ${myname}, a ${profession} from ${city}.`);
+// String Template Usage:**
+//    Complete the code to print the following output:  
+//    `"My name is Yash and I live in Indrapuri, Bhopal."`  
+//    ```javascript
+//    const name = "Yash";
+//    const location = "Indrapuri, Bhopal";
+//    console.log(`My name is ______ and I live in ______.`);
+
+const name ="sujal";
+const location="indrapuri,bhopal"
+console.log(`My name is ${name} and I live in ${location}`);

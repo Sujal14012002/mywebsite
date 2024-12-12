@@ -1,4 +1,15 @@
-// **Favorite Movie:**
-//    Create a variable `favoriteMovie` using `let`. Assign it your favorite movie's name and print: "My favorite movie is [movie]."
-let favoriteMovie="Border";
-console.log(`My favourite movie is ${favoriteMovie}.`);
+// **Multi-line String:**
+//    Write a script using backticks to declare a variable `poem` that stores the following multi-line text:
+//    ```
+//    Roses are red,
+//    Violets are blue,
+//    I love coding,
+//    And so do you!
+//    ```
+
+
+let poem=`Roses are red,
+Voilets are blue,
+I love coding,
+And s do you!`
+console.log(poem);
