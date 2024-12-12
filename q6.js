@@ -1,10 +1,12 @@
 // **Predict the Output:**
-// What will the following code print?  
-// ```javascript
-// const hobby = 'Coding';
-// console.log('My hobby is: ' + hobby);
-// ```
+//    What will the following code output?
+//    ```javascript
+//    const num1 = 42.78;
+//    console.log(Math.ceil(num1));
+//    console.log(Math.floor(num1));
+//    console.log(Math.round(num1));
 
-
-const hobby ='Coding';
-console.log('My hobby is :  '+hobby);//my hobby is: coding
+const num1=42.78;
+console.log(Math.ceil(num1))//43
+console.log(Math.floor(num1))//42
+console.log(Math.round(num1))//43

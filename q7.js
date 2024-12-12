@@ -1,9 +1,9 @@
-// Fix the issue in the following code:
-// ```javascript
-// const quote = "I love JavaScript;
-// console.log(quote);
+// **Fix the Code:**
+//    Find and correct the error in the following code:
+//    ```javascript
+//    const bigInt = 12345678901234567890;
+//    console.log(bigInt);
+//    ```
 
-// string "" both side to close the sentence in string double quoted 
-
-const quote="I love javascript";
-console.log(quote);//corect 
+const bigInt = 12345678901234567890n;
+   console.log(bigInt);

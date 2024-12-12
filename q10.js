@@ -1,11 +1,10 @@
-// String Template Usage:**
-//    Complete the code to print the following output:  
-//    `"My name is Yash and I live in Indrapuri, Bhopal."`  
+// **Identify the Result:**
+//    What will the following code output?  
 //    ```javascript
-//    const name = "Yash";
-//    const location = "Indrapuri, Bhopal";
-//    console.log(`My name is ______ and I live in ______.`);
-
-const name ="sujal";
-const location="indrapuri,bhopal"
-console.log(`My name is ${name} and I live in ${location}`);
+//    const largeNumber = 1_000_000_000;
+//    const smallNumber = 1e-6;
+//    console.log(largeNumber + smallNumber);
+//    ```
+const largeNumber = 1_000_000_000;
+const smallNumber = 1e-6;
+console.log(largeNumber + smallNumber);//1000000000.000001

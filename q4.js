@@ -1,9 +1,5 @@
-// **String Concatenation:**
-//    Write code to concatenate the following strings:
-//    - `firstName` = `"Yash"`
-//    - `lastName` = `"Priyam"`
-//    Print: `"My full name is Yash Priyam."`
+// **Scientific Notation:**
+// Declare a variable `bigNumber` with the value `3.2e7` (32 million). Print the variable.
 
-let firstName="Sujal";
-let lastName="prajapati";
-console.log("My fullname is ",firstName.concat(lastName));
+const bigNumber=320000000000000000n;
+console.log(BigInt(bigNumber));

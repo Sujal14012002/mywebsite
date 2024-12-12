@@ -1,17 +1,11 @@
+// **Declare Numbers:**
+//    Write code to declare the following variables:
+//    - `normalNumber` with the value `12345678`.
+//    - `floatingNumber` with the value `789.123`.
+//    - `largeNumber` using underscores for readability, representing `10^12`.
+//    Print all the variables.
 
-// 1. **String Declaration:**
-//    Write code to declare three variables using different quotes:
-//    - One with double quotes (`"`), assigning it `"Hello World"`.
-//    - One with single quotes (`'`), assigning it `'Welcome to JavaScript'`.
-//    - One with backticks (````), assigning it a multi-line string:  
-//      ```
-//      "JavaScript Strings
-//      are Fun!"
-//      ```
-//    Print all three variables.
-
-
-let a="hello world";
-let b='Welcome to javascript';
-let c=`hello user i am sujal prajpati`;
-console.log(a,b,c);
+let normalNumber =12345678;
+let floatingNumber=789.123;
+let largeNumber=12345678912354;
+console.log(normalNumber,floatingNumber,largeNumber);
