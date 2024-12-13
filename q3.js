@@ -4,7 +4,7 @@
 //    - `unsafeNumber` = `9007199254740995`.  
 //    Print both values.
 
-let safeNumber=1254486486454;
+let safeNumber=9007199254740991;
 console.log(safeNumber);
 let unsafeNumber=1548465416489465484415154841515n;
 console.log(unsafeNumber);

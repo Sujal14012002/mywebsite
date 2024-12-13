@@ -7,5 +7,5 @@
 
 let normalNumber =12345678;
 let floatingNumber=789.123;
-let largeNumber=12345678912354;
+let largeNumber=123456789123548564n;
 console.log(normalNumber,floatingNumber,largeNumber);

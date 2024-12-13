@@ -7,7 +7,7 @@
 // const b=100;
 // console.log(BigInt(a+b));
 
-const c=9007199254741000;
+const c=9007199254741000n;
 const d=9007199254740991;
 console.log(c-d);
 
