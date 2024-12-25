@@ -1,11 +1,9 @@
-// **Declare Numbers:**
-//    Write code to declare the following variables:
-//    - `normalNumber` with the value `12345678`.
-//    - `floatingNumber` with the value `789.123`.
-//    - `largeNumber` using underscores for readability, representing `10^12`.
-//    Print all the variables.
+// **Boolean Declaration:**
+//    Write code to declare two variables:  
+//    - `isLoggedIn` with the value `true`.  
+//    - `isGuest` with the value `false`.  
+//    Print: `"Is user logged in? [isLoggedIn]. Is user a guest? [isGuest]."`
 
-let normalNumber =12345678;
-let floatingNumber=789.123;
-let largeNumber=123456789123548564n;
-console.log(normalNumber,floatingNumber,largeNumber);
+let isLoggedIn=true;
+let isGuest=false;
+console.log(`is user logged in? ${isLoggedIn}. Is user a gues ? ${isGuest}`)

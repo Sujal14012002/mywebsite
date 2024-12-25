@@ -1,10 +1,5 @@
-// Big Numbers:**
-//    Write a script to declare two numbers:
-//    - `safeNumber` = `Number.MAX_SAFE_INTEGER`.
-//    - `unsafeNumber` = `9007199254740995`.  
-//    Print both values.
+// **Symbol Usage:**
+//    Declare a symbol with the key `"unique_id"`. Print the symbol's value.
 
-let safeNumber=9007199254740991;
-console.log(safeNumber);
-let unsafeNumber=1548465416489465484415154841515n;
-console.log(unsafeNumber);
+let Symbol=("unikey-key");
+console.log(Symbol);//unikey-key

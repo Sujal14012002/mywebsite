@@ -1,10 +1,13 @@
-// **Identify the Result:**
-//    What will the following code output?  
-//    ```javascript
-//    const largeNumber = 1_000_000_000;
-//    const smallNumber = 1e-6;
-//    console.log(largeNumber + smallNumber);
-//    ```
-const largeNumber = 1_000_000_000;
-const smallNumber = 1e-6;
-console.log(largeNumber + smallNumber);//1000000000.000001
+// 10. **Operator Challenge:**
+//     What will the following code output?
+//     ```javascript
+//     const a = 15;
+//     const b = 4;
+//     console.log(a % b);
+//     console.log(a ** b);
+
+
+const a = 15;
+const b = 4;
+console.log(a % b);//3
+console.log(a ** b);//15*15*15*15---->50625

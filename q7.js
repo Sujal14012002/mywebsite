@@ -1,9 +1,12 @@
-// **Fix the Code:**
-//    Find and correct the error in the following code:
+// 7. **Predict the Output:**
+//    What will the following code print?
 //    ```javascript
-//    const bigInt = 12345678901234567890;
-//    console.log(bigInt);
-//    ```
+//    let count = 1;
+//    console.log(count++);
+//    console.log(++count);
 
-const bigInt = 12345678901234567890n;
-   console.log(bigInt);
+
+
+let count = 1;
+console.log(count++);//1  because count 1 se bdkar 2 ho gya or next line ++ aaya toh 2 se 3 bn gy
+console.log(++count);//3

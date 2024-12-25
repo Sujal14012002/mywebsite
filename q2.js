@@ -1,5 +1,14 @@
-// Declare a variable `number = 56.78`. Use `Math.ceil`, `Math.floor`, and `Math.round` to round the number in different ways. Print the results.
-const number=56.75;
-console.log(Math.ceil(number))//57
-console.log(Math.floor(number))//56
-console.log(Math.round(number))//57
+// **Boolean Conversion:**
+// Write code to convert the following values to Boolean using `Boolean()`:
+// - An empty string (`''`).
+// - A non-empty string (`'hello'`).
+// - The number `0`.  
+// Print the results.
+
+let a=Boolean('');
+let b=Boolean("hello")
+let c=Boolean(0);
+console.log(a);//false   
+console.log(b);//true
+console.log(c);//false
+

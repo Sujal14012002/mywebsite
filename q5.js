@@ -1,13 +1,13 @@
-// Write code to perform the following calculations:
-// - Add `100` to `Number.MAX_SAFE_INTEGER`.
-// - Subtract `9007199254741000` from `Number.MAX_SAFE_INTEGER`.
-// Print both results.
+// Write code to:
+//    - Declare a variable `count = 5`.
+//    - Increment it using both pre-increment (`++count`) and post-increment (`count++`).  
+//    Print the value of `count` before and after each operation.
 
-// const a =9007199254740991;
-// const b=100;
-// console.log(BigInt(a+b));
 
-const c=9007199254741000n;
-const d=9007199254740991;
-console.log(c-d);
+let count =5;
+console.log(count);//5
+console.log(++count);//6
+
+console.log(count++);//6
+console.log(count);//7
 
