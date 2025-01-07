@@ -1,0 +1,135 @@
+### **Code Snippet-Based Questions**
+
+1. **Predict the Output:**
+   What will the following code print?
+   ```javascript
+   const isVegetarian = true;
+   if (isVegetarian) {
+       console.log("Serving vegetarian food.");//output Serving vegetarian food.
+   } else {
+       console.log("Serving non-vegetarian food.");
+   }
+   ```
+
+---
+
+2. **Fix the Code:**
+   Identify and fix the errors in the following code:
+   ```javascript
+   let age = 45;
+   if (age >= 18 && age <= 60 ){
+       console.log("User is an adult");//output =>User is an adult
+   } else  {
+       console.log("User is a senior citizen");
+   }
+   ```
+
+---
+
+3. **Fill in the Blanks:**
+   Complete the following code to print the user's age group:
+   ```javascript
+   let age = 20;
+   if (___age___ >= 60) {
+       console.log("Senior Citizen");
+   } else if (___age___ >= 18) {
+       console.log("Adult");       //output=>Adult
+   } else {
+       console.log("Underage");
+   }
+   ```
+
+---
+
+4. **Debug the Code:**
+   Find and correct the problem in the following script:
+   ```javascript
+   const age = 15;
+   age >= 18 ? console.log("Adult") : console.log("Minor");// second console excute bexause condition is false 
+   ```
+
+---
+
+5. **Switch-Case Output:**
+   Predict the output of the following code:
+   ```javascript
+   let day = "Sunday";
+   switch (day) {
+       case "Saturday":
+       case "Sunday":
+           console.log("It's the weekend!");
+           break;
+       default:
+           console.log("It's a weekday.");
+   }
+   ```
+
+---
+
+6. **Rewrite Using Ternary:**
+   Rewrite the following code using a ternary operator:
+   ```javascript
+   const isWeekend = false;
+   if (isWeekend) {
+       console.log("Relax, it's the weekend!");
+   } else {
+       console.log("Get back to work!");
+   }
+   ```
+
+---
+
+7. **Output Analysis:**
+   What will the following code print?
+   ```javascript
+   let userAge = 64;
+   const message = userAge >= 60 ? "Senior Citizen" : "Not a Senior Citizen";
+   console.log(message);
+   ```
+
+---
+
+8. **Switch-Case Debugging:**
+   Fix the issues in the following code:
+   ```javascript
+   let color = "red";
+   switch (color) {
+       case "blue":
+           console.log("Color is blue");
+       case "red":
+           console.log("Color is red");
+       default:
+           console.log("Color is not identified");
+   }
+   ```
+
+---
+
+9. **Predict the Output:**
+   What will the following code print?
+   ```javascript
+   let score = 90;
+   switch (true) {
+       case score >= 85:
+           console.log("Excellent");
+           break;
+       case score >= 70:
+           console.log("Good");
+           break;
+       default:
+           console.log("Average");
+   }
+   ```
+
+---
+
+10. **Nested Ternary Operator:**
+    What will the following code print?
+    ```javascript
+    let age = 16;
+    const message = age >= 18
+        ? "Adult"
+        : age >= 12
+        ? "Teenager"
+        : "Child";
+    console.log(message);

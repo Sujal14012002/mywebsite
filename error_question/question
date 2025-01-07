@@ -1,0 +1,106 @@
+1. **Predict the Output:**
+   What will the following code print?
+   ```javascript
+   const bool = Boolean('JavaScript');
+   console.log(bool);//true
+   ```
+
+---
+
+2. **Fix the Code:**
+   Identify and fix the issue in the following code:
+   ```javascript
+   const isNull = undefined;
+   console.log(isNull === null);//false
+   ```
+
+---
+
+3. **Complete the Code:**
+   Fill in the blanks to print the product and sum of two numbers:
+   ```javascript
+   const num1 = 12;
+   const num2 = 8;
+   const product = num1 ___*___ num2;
+   const total = num1 ____+__ num2;
+   console.log('Product:', ___product___);
+   console.log('Sum:', ___total___);
+   ```
+
+---
+
+4. **Correct the Logic:**
+   Fix the following code to check if two variables have both the same value and type:
+   ```javascript
+   const num1 = 42;
+   const num2 = '42';
+   console.log(num1 == num2);//output comes true because the '42' is convert in to no then condition wil be check 42==42 
+   //corect the code if(num1===num2)//then output comes false because "42" is string and 42 is no.
+   ```
+
+---
+
+5. **Debug the Code:**
+   Find and correct the error in the following code:
+   ```javascript
+   const x = 7;
+   const y = 2;
+   const divide = x / y;//if 0 in denominator then output is infinity
+   console.log(divide);//3.5
+
+
+   ```
+
+---
+
+6. **Fill in the Blanks:**
+   Complete the following code to assign and print the result of an operation:
+   ```javascript
+   let num = 10;
+   num ___+___= 5; // Add 5 to num
+   console.log(num);//15
+   ```
+
+---
+
+7. **Predict the Output:**
+   What will the following code print?
+   ```javascript
+   let count = 1;
+   console.log(count++);1
+   console.log(++count);3
+   ```
+
+---
+
+8. **Find the Error:**
+   Debug and fix this code:
+   ```javascript
+   let symbol = Symbol("key");
+   console.log(symbol === "key");//false
+   ```
+
+---
+
+9. **Null Check:**
+   Write code to predict and verify the output:
+   ```javascript
+   const emptyValue = null;
+   const isNull = emptyValue === null;
+   console.log(isNull);//true
+   ```
+
+---
+
+10. **Operator Challenge:**
+    What will the following code output?
+    ```javascript
+    const a = 15;
+    const b = 4;
+    console.log(a % b);//3
+    console.log(a ** b);//50625
+    ```
+
+---
+
+These questions cover fundamental concepts of Booleans, symbols, null, undefined, and mathematical/assignment operators in JavaScript while keeping the content engaging and practice-oriented.

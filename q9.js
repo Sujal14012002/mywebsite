@@ -9,3 +9,5 @@
 const emptyValue = null;
 const isNull = emptyValue === null;//line comparing null===null it's true 
 console.log(isNull);//output true
+
+
